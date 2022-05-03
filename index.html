@@ -27,16 +27,22 @@
     
         <h1>Images displaying using Cloudflare Image Resize</h1>
     
-        <h2>Images size width 500, 400 & 300</h2>
+        <h2>Images size width 800, 700 & 600</h2>
         
-        <img src="/cdn-cgi/image/width=500,quality=75/wp2770319.jpg" />
-        <img src="/cdn-cgi/image/width=400,quality=75/wp2770319.jpg" />
-        <img src="/cdn-cgi/image/width=300,quality=75/wp2770319.jpg" />
+        <img 
+            src="/cdn-cgi/image/fit=contain,width=800,quality=75/wp2770319.jpg" 
+            srcset="/cdn-cgi/imagefit=contain,width=1600,quality=75/wp2770319.jpg 2x"
+        />
+        <img 
+            src="/cdn-cgi/image/fit=contain,width=700,quality=75/wp2770319.jpg" 
+            srcset="/cdn-cgi/imagefit=contain,width=1400,quality=75/wp2770319.jpg 2x"
+        />
+        <img 
+            src="/cdn-cgi/image/fit=contain,width=600,quality=75/wp2770319.jpg" 
+            srcset="/cdn-cgi/imagefit=contain,width=1200,quality=75/wp2770319.jpg 2x"
+        />
 
         <h2>Images size width 500, 400 & 300</h2>
-        <img src="/cdn-cgi/image/width=500,quality=75/thumb-1920-689021.jpg" />
-        <img src="/cdn-cgi/image/width=400,quality=75/thumb-1920-689021.jpg" />
-        <img src="/cdn-cgi/image/width=300,quality=75/thumb-1920-689021.jpg" />
 
     </body>
 </html>
