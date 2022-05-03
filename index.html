@@ -1,41 +1,43 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Erik's Images</title>
-
-<style>
-    body {
-        background-image: url('thumb-1920-689021.jpg');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: 100% 100%;
-    }
-    h1 {
-      text-align: center;
-      color: white;
-      font-size: 50px;
-    }
-    
-    h2 {
-      left: 10;
-      bottom: 0;
-      position: absolute;
-      color: white;
-      font-size: 30px;
-    }
-    
-    </style>
+    <head>
+        <title>Erik's Images</title>
+        <style>
+            body {
+                background-image: url('thumb-1920-689021.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
+            h1 {
+                text-align: center;
+                color: white;
+                font-size: 50px;
+            }
+            h2 {
+                left: 10;
+                bottom: 0;
+                position: absolute;
+                color: white;
+                font-size: 30px;
+            }
+        </style>
     </head>
     <body>
     
-    <h1>Images displaying using Cloudflare Image Resize</h1>
+        <h1>Images displaying using Cloudflare Image Resize</h1>
     
-    <h2>Cloudflare Pages & Image Resize</h2>
-    <img src="/cdn-cgi/image/width=500,quality=75/wp2770319.jpg" />
-    
-    <img src="/cdn-cgi/image/width=400,quality=75/thumb-1920-689021.jpg" />
+        <h2>Images size width 500, 400 & 300</h2>
+        
+        <img src="/cdn-cgi/image/width=500,quality=75/wp2770319.jpg" />
+        <img src="/cdn-cgi/image/width=400,quality=75/wp2770319.jpg" />
+        <img src="/cdn-cgi/image/width=300,quality=75/wp2770319.jpg" />
 
-    <img src="/cdn-cgi/image/width=300,quality=75/wp2770319.jpg" />
+        <h2>Images size width 500, 400 & 300</h2>
+        <img src="/cdn-cgi/image/width=500,quality=75/thumb-1920-689021.jpg" />
+        <img src="/cdn-cgi/image/width=400,quality=75/thumb-1920-689021.jpg" />
+        <img src="/cdn-cgi/image/width=300,quality=75/thumb-1920-689021.jpg" />
+
     </body>
-    </html>
+</html>
     
